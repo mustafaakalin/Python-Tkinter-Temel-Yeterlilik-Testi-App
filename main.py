@@ -30,12 +30,12 @@ kalan_sure_str = f"{kalan_sure.days} gün {kalan_sure.seconds//3600} saat {kalan
 kalan_sure_label = tk.Label(text=kalan_sure_str, font=yazi_tipi, fg=kirmizi, bg="white")
 kalan_sure_label.pack(padx=20, pady=20)
 
-# Sistem Başlatıldığında Otomatik Çalıştırma
-def otomatik_calistirma():
-    subprocess.call(["python", "Temel_Yeterlilik_Testi.py"])
+# # Sistem Başlatıldığında Otomatik Çalıştırma  for windows
+# def otomatik_calistirma():
+#     subprocess.call(["python", "Temel_Yeterlilik_Testi.py"])
 
-# Otomatik Çalıştırma Fonksiyonu Çağrısı
-otomatik_calistirma()
+# # Otomatik Çalıştırma Fonksiyonu Çağrısı
+# otomatik_calistirma()
 
 # Pencereyi Gösterme
 pencere.mainloop()
