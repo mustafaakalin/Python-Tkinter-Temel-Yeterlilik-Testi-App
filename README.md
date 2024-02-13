@@ -1,0 +1,1 @@
+# Python-Tkinter-Temel-Yeterlilik-Testi-App
