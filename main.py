@@ -2,6 +2,10 @@ import tkinter as tk
 from datetime import datetime, timedelta
 import subprocess
 
+# linux autostart
+# touch ~/.config/autostart/tytcounter-autostart.desktop
+# echo "[Desktop Entry] "\n"Type=Application"\n"Name=tytcounter-autostart"\n"Exec=python /home/$USER/tytcounter.py" > ~/.config/autostart/tytcounter-autostart.desktop
+
 # Sınav Tarihi ve Saati
 sinav_tarihi = datetime(2024, 6, 18, 9, 0)
 
